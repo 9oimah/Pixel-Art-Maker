@@ -1,2 +1,3 @@
-# Pixel Art Maker 
+## Pixel Art Maker 
 
+Udacity Nanodegree Project
