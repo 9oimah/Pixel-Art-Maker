@@ -1,12 +1,15 @@
 // Select DOM elements
 let input = document.getElementById('sizePicker');
 let canvas = document.getElementById('pixelCanvas');
+let color = document.getElementById('colorPicker');
+let inputtedWidth = document.getElementById('inputWeight');
+let inputtedHeight = document.getElementById('inputHeight');
 
 //Event listener for the submit button
 input.addEventListener('submit', function(e) {
 	e.preventDefault();
-	let width = document.getElementById('inputWeight').value;
-	let height = document.getElementById('inputHeight').value;
+	let width = inputtedWidth.value;
+	let height = inputtedHeight.value;
 	makeGrid(width, height);
 });
 
@@ -31,7 +34,7 @@ function makeGrid(width, height) {
 		for (let y = 0; y < width; y++) {
 			let cell = document.createElement('td');
 			cell.addEventListener('click', function() {
-				cell.style.backgroundColor = document.getElementById('colorPicker').value;
+				cell.style.backgroundColor = color.value;
 			});
 			row.appendChild(cell);
 		}
