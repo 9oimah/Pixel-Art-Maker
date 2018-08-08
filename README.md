@@ -1,4 +1,4 @@
-# Pixel Art Maker 
+## Pixel Art Maker 
 
 This Udacity Nanodegree Project allows users to draw pixel art on a customizable canvas!
 
