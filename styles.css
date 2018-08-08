@@ -1,10 +1,11 @@
 body {
     text-align: center;
+	font-family: 'Crimson Text', serif;
 }
 
 h1 {
-    font-family: Monoton;
-    font-size: 70px;
+    font-family: 'Rochester', cursive;
+    font-size: 90px;
     margin: 0.2em;
 }
 
